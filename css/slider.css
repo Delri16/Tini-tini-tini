@@ -1,0 +1,82 @@
+* {box-sizing:border-box}
+
+/* contenedor Slideshow */
+#slideshow-container {
+  max-width: 960px;
+  position: relative;
+  margin: 0px auto 20px auto;
+}
+
+/* Esconder las imágenes predeterminadamente */
+.mySlides {
+  display: none;
+}
+.mySlides img{
+    width: 100%;
+}
+
+/* Botones Anterior y Siguiente */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+}
+
+/* Colocar el "botón siguiente" a la derecha */
+.next {
+  right: 0;
+}
+
+/* Al pasar el mouse, agregar un fondo negro con un poco de transparencia */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
+
+/* Subtítulos */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #652575;
+}
+
+/* Número de imagen (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: #652575;
+}
+
+/* Items/bullets/indicadores */
+#items {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.item {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+}
+
+.active, .item:hover {
+  background-color: #652575;
+}

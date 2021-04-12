@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Santiago Del Rio</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/slider.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:300,400,600,700|Titillium+Web:300,400,600,700"
+    rel="stylesheet">
+<style>
+
+</style>
+  </head>
+
+<body>
+  
+  <header>
+ 
+    <div id="logo">
+      <p>TINI</p>
+    </div>
+  
+    <nav>
+      <ul> 
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="#">Novedades</a></li>
+        <li><a href="../html/tinitinitini.html">Tini Tini Tini</a></li>
+        <li><a href="../html/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="main">
+  
+    <div id="slideshow-container">
+
+     
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="../imgs/tini1.jpg">
+        <div class="text">Un beso en Madrid</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="../imgs/tini2.jpg">
+        <div class="text">Ella dice</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="../imgs/tini3.jpg">
+        <div class="text">Fresa</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="../imgs/tini4.jpg">
+        <div class="text">22</div>
+      </div>
+
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+   
+    <div id="items">
+      <span class="item" onclick="currentSlide(1)"></span>
+      <span class="item" onclick="currentSlide(2)"></span>
+      <span class="item" onclick="currentSlide(3)"></span>
+      <span class="item" onclick="currentSlide(4)"></span>
+    </div>
+  
+    <section id="articles-list">
+      <article>
+          <div id="card">
+              <img src="../imgs/tini8.jpg" id="card-image">
+              <h3>Nuevo álbum</h3></br>
+              <h4>Tini Tini Tini ya está disponible en todas sus plataformas</h4></br></br>
+              <p>Tini sacó su nuevo álbum con artistas colaboradores como Alejandro Sanz y muchos más. El mismo se encuentra dispoible en iTunes, Spotify y Youtube</p>
+
+          </div>
+          <div id="card">
+            <img src="../imgs/tini9.jpg" id="card-image">
+            <h3>Nuevo show</h3></br>
+            <h4>El 6 de Diciembre vía streaming</h4></br></br>
+            <p>Ingresando a www.claro.com/tini el 6 de diciembre a las 19:00 hs vas a poder disfrutar de un show en directo de Tini presentando su nuevo album, ¡no te lo pierdas!</p>
+
+        </div>
+        <div id="card">
+            <img src="../imgs/tini10.jpg" id="card-image">
+            <h3>Making of</h3></br>
+            <h4>Disponible el Making of de un Beso en Madrid</h4></br></br>
+            <p>Ingresando a nuestro canal de Youtube ya podés ver el Making of de Un Beso en Madrid de Tini junto a Alejandro Sanz y disfrutar de los mejores momentos de la grabación</p>
+
+        </div>
+        </article>
+
+        <div class="page2"><center>
+          <p><a href="#">« Anteriores</a> || <a href="#">Siguientes »</a></p></center>
+        </div>
+    </section>
+    <aside id="aside2">
+        <section class="widget">
+          <h3>Mira las noticias de...</h3>
+          <ul>
+            <li><a href="#">Octubre</a></li>
+            <li><a href="#">Septiembre</a></li>
+            <li><a href="#">Agosto</a></li>
+            <li><a href="#">Julio</a></li>
+            <li><a href="#">Junio</a></li>
+            <li><a href="#">Mayo</a></li>
+            <li><a href="#">Abril</a></li>
+            <li><a href="#">Marzo</a></li>
+            <li><a href="#">Febrero</a></li>
+            <li><a href="#">Enero</a></li>
+  
+          </ul>
+        </section>
+        <section class="widget">
+          <h3>Años anteriores</h3>
+          <ul>
+            <li><a href="#">2019</a></li>
+            <li><a href="#">2018</a></li>
+            <li><a href="#">2017</a></li>
+            <li><a href="#">2016</a></li>
+          </ul>
+        </section>
+      </aside>
+    </section>
+
+    <footer>
+      <p id="copyright">Tini®</p>
+    </footer>
+        
+          
+          <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        
+          <script src="../js/slides.js"></script>
+        
+          <script>
+            $(function () {
+              $("#slideShow").slidesjs({
+                height: 300,
+                navigation: false
+              });
+            });
+          </script>
+        </body>
+        
+        </html>

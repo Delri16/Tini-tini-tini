@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Santiago Del Rio</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:300,400,600,700|Titillium+Web:300,400,600,700"
+    rel="stylesheet">
+<style>
+
+</style>
+  </head>
+
+<body>
+  
+  <header>
+ 
+    <div id="logo">
+      <p>TINI</p>
+    </div>
+  
+    <nav>
+      <ul> 
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="html/novedades.html">Novedades</a></li>
+        <li><a href="html/tinitinitini.html">Tini Tini Tini</a></li>
+        <li><a href="html/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="main">
+  
+    <div id="slideshow-container">
+
+     
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="imgs/tini1.jpg">
+        <div class="text">Un beso en Madrid</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="imgs/tini2.jpg">
+        <div class="text">Ella dice</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="imgs/tini3.jpg">
+        <div class="text">Fresa</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="imgs/tini4.jpg">
+        <div class="text">22</div>
+      </div>
+
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+   
+    <div id="items">
+      <span class="item" onclick="currentSlide(1)"></span>
+      <span class="item" onclick="currentSlide(2)"></span>
+      <span class="item" onclick="currentSlide(3)"></span>
+      <span class="item" onclick="currentSlide(4)"></span>
+    </div>
+  
+    <section id="articles-list">
+      <article>
+        <img src="imgs/tini5.jpg"  id="tini5" alt="Imagen 5" class="thumb">
+        <h2>
+          <a href="#">Tini</a>
+        </h2>
+        <p class="date">2016<a href="#"></a></p>
+        <p class="extract">
+          Tini es el primer álbum de estudio de la cantante argentina Martina Stoessel con su nombre de pila, que también incluye música de la película Tini: El gran cambio de Violetta. Fue lanzado el 29 de abril de 2016 a través de Hollywood Records. El primer sencillo del álbum, «Siempre brillarás», y su versión en inglés, «Born to Shine», fueron lanzados el 25 de marzo de 2016. El álbum recibió certificación de Oro en Argentina.1​ El álbum logró posicionarse número uno en Argentina, Italia, Alemania y número dos en Austria.
+        </p>
+      </article>
+      <article>
+        <img src="imgs/tini6.jpg" alt="Imagen 6" class="thumb">
+        <h2>
+          <a href="#">Quiero volver</a>
+        </h2>
+        <p class="date">2018 <a href="#"></a></p>
+        <p class="extract">
+          Quiero volver es el primer (segundo en total) álbum de estudio de la cantante argentina TINI. Fue lanzado al mercado el 12 de octubre de 2018, bajo el sello discográfico Hollywood Records.
+        </p>
+      </article>
+      <article>
+        <img src="imgs/tini7.jpg" alt="Imagen 7" class="thumb">
+        <h2>
+          <a href="#">Tini Tini Tini</a>
+        </h2>
+        <p class="date">2020<a href="#"></a></p>
+        <p class="extract">
+          El 3 de diciembre de 2020 lanzó su tercer álbum de estudio Tini Tini Tini, que contó con colaboraciones de Sebastián Yatra, Greeicy, Alejandro Sanz, Mau & Ricky, entre otros.
+        </p>
+      </article>
+
+      <div class="page">
+        <p><a href="#">« Anteriores</a> || <a href="#">Siguientes »</a></p>
+      </div>
+    </section>
+ 
+    <aside>
+      <section class="widget">
+        <h3>Artistas colaboradores</h3>
+        <ul>
+          <li><a href="#">Sebastián Yatra</a></li>
+          <li><a href="#">Karol G</a></li>
+          <li><a href="#">Cali y el Dandee</a></li>
+          <li><a href="#">Morat</a></li>
+          <li><a href="#">Nacho</a></li>
+          <li><a href="#">Alejandro Sanz</a></li>
+          <li><a href="#">Lalo Ebratt</a></li>
+          <li><a href="#">Khea</a></li>
+          <li><a href="#">Jhon C</a></li>
+          <li><a href="#">Mau y Ricky</a></li>
+          <li><a href="#">Greeicy</a></li>
+
+        </ul>
+      </section>
+      <section class="widget">
+        <h3>Colaboraciones extra</h3>
+        <ul>
+          <li><a href="#">Lola índigo</a></li>
+          <li><a href="#">Maria Becerra</a></li>
+          <li><a href="#">Sergio Aguero</a></li>
+          <li><a href="#">Jorge Blanco</a></li>
+        </ul>
+      </section>
+    </aside>
+  </section>
+
+
+  <footer>
+    <p id="copyright">Tini®</p>
+  </footer>
+
+  
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script src="js/slides.js"></script>
+
+  <script>
+    $(function () {
+      $("#slideShow").slidesjs({
+        height: 300,
+        navigation: false
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+/*TABLET HORIZONTAL*/
+@media screen and (max-width:1024px) {
+    header nav ul li{
+        margin: 0px 5px 10px 0px;
+        background:#E087B7;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    header nav ul li a:hover {
+        color:#FFF;
+    }
+    #main #no-slide {
+        display:none;
+    }
+    #main #articles-list .page p a {
+        margin: 10px 5px;
+        background:#652575;
+        color:#FFF;
+        padding: 10px;
+    }
+    .widget ul li {
+        border-bottom: 1px solid #652575;
+        padding: 5px 0px;
+    }
+    footer .widget{
+        width: 50%;
+    }
+}
+
+/*TABLET VERTICAL*/
+@media screen and (max-width:768px) {
+    header #logo{
+        width: 100%;
+        background: #652575;
+    }
+    header #logo p {
+        text-align: center;
+    }
+
+    header #logo span {
+        text-align: center;
+    }
+    header nav {
+        width:100%;
+        float: left;
+        margin-top: 10px;
+    }
+    header nav ul {
+        float: left;
+    }
+    #main #articles-list {
+        width: 100%;
+    }
+    #slideshow-container{
+        display: none;
+    }
+    #items{
+        display: none;
+    }
+    
+    #main aside {
+        width: 100%;
+        clear: both;
+    }
+    .widget {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+}
+
+/*SMARTPHONE*/
+@media screen and (max-width:414px) {
+    #main #articles-list article .thumb {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+footer .widget {
+    display: none;
+    }
+}

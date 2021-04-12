@@ -1,0 +1,260 @@
+var musica = 0
+function tini1(){
+    document.getElementById("primera").play()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini2(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").play()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini3(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").play()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+}
+function tini4(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").play()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini5(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").play()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini6(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").play()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini7(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").play()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini8(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").play()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini9(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").play()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini10(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").play()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini11(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").play()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini12(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").play()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini13(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").play()
+    document.getElementById("decimocuarto").pause()
+    document.getElementById("TINIuno").style.display="inline"
+}
+function tini14(){
+    document.getElementById("primera").pause()
+    document.getElementById("segunda").pause()
+    document.getElementById("tercera").pause()
+    document.getElementById("cuarta").pause()
+    document.getElementById("quinta").pause()
+    document.getElementById("sexta").pause()
+    document.getElementById("septima").pause()
+    document.getElementById("octava").pause()
+    document.getElementById("novena").pause()
+    document.getElementById("decima").pause()
+    document.getElementById("undecima").pause()
+    document.getElementById("duodecima").pause()
+    document.getElementById("decimotercera").pause()
+    document.getElementById("decimocuarto").play()
+    document.getElementById("TINIuno").style.display="inline"
+}
+
+
+
+
+
+
+
+
+document.getElementById("TINI1").onclick=tini1
+document.getElementById("TINI2").onclick=tini2
+document.getElementById("TINI3").onclick=tini3
+document.getElementById("TINI4").onclick=tini4
+document.getElementById("TINI5").onclick=tini5
+document.getElementById("TINI6").onclick=tini6
+document.getElementById("TINI7").onclick=tini7
+document.getElementById("TINI8").onclick=tini8
+document.getElementById("TINI9").onclick=tini9
+document.getElementById("TINI10").onclick=tini10
+document.getElementById("TINI11").onclick=tini11
+document.getElementById("TINI12").onclick=tini12
+document.getElementById("TINI13").onclick=tini13
+document.getElementById("TINI14").onclick=tini14

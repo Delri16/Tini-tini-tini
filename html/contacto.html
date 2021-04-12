@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Santiago Del Rio</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/slider.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:300,400,600,700|Titillium+Web:300,400,600,700"
+    rel="stylesheet">
+<style>
+
+</style>
+  </head>
+
+<body>
+  
+  <header>
+ 
+    <div id="logo">
+      <p>TINI</p>
+    </div>
+  
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="novedades.html">Novedades</a></li>
+        <li><a href="tinitinitini.html">Tini Tini Tini</a></li>
+        <li id = "elegido"><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="main">
+  
+    <div id="slideshow-container">
+
+     
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="../imgs/tini1.jpg">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="../imgs/tini2.jpg">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="../imgs/tini3.jpg">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="../imgs/tini4.jpg">
+      </div>
+
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+   
+    <div id="items">
+      <span class="item" onclick="currentSlide(1)"></span>
+      <span class="item" onclick="currentSlide(2)"></span>
+      <span class="item" onclick="currentSlide(3)"></span>
+      <span class="item" onclick="currentSlide(4)"></span>
+    </div>
+  
+    <section id="articles-list">
+      <article>
+        <h1>
+          CONTACTO
+        </h1>
+    </article>
+    <article>
+        <h2>
+            Nombre
+        </h2>
+        <br>
+        <input type="text" id="text1">   
+      </article>
+      <article>
+        <h2>
+            Apellido
+        </h2>
+        <br>
+        <input type="text" id="text1">   
+      </article>
+      <article>
+        <h2>
+            Mail
+        </h2>
+        <br>
+<input type="text" id="text1"> 
+      </article>
+      <article>
+        <h2>
+            Asunto
+        </h2>
+        <br>
+<input type="text" id="text2"> 
+      </article>
+      <article>
+        <h2>
+            Texto
+        </h2>
+        <br>
+<input type="text" id=text3>
+<br></br>
+<input type="button" id="boton1" value="enviar"> 
+      </article>
+
+    </section>
+  </section>
+
+
+  <footer>
+    <p id="copyright">Tini®</p>
+  </footer>
+
+  
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script src="../js/slides.js"></script>
+
+  <script>
+    $(function () {
+      $("#slideShow").slidesjs({
+        height: 300,
+        navigation: false
+      });
+    });
+  </script>
+</body>
+
+</html>
